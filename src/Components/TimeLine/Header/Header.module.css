@@ -1,0 +1,17 @@
+.header {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    color: #eee;
+}
+.headerStub {
+    width: 100%;
+    height: 60px;
+    background-color: #343434;
+}
+img {
+    height: auto;
+    max-width: 100%;
+    display: inline-block;
+    width: 100%;
+}

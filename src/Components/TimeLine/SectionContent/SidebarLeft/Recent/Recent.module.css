@@ -1,0 +1,129 @@
+
+.widget {
+    box-sizing: border-box;
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    margin-bottom: 18px;
+    border: 1px solid #3e3e3e;
+    border-radius: 5px;
+    background: #424242 none repeat scroll 0 0;
+
+    color: white;
+
+}
+.widget > ul {
+    display: inline-block;
+    list-style: outside none none;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding: 0 25px 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.widget > li {
+    display: inline-block;
+    margin-bottom: 20px;
+    position: relative;
+    width: 100%;
+    box-sizing: border-box;
+
+}
+.widget li > a {
+    font-size: 14px;
+    text-transform: capitalize;
+    display: inline-block;
+    position: relative;
+    font-weight: 400;
+    color: #797979;
+    vertical-align: top;
+    box-sizing: border-box;
+}
+.recent > li {
+    padding-left: 12px;
+    margin-bottom: 20px;
+    position: relative;
+}
+.recent > li::before {
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 2px;
+    background: #088dcd;
+}
+
+.recent > li a {
+    padding: 3px 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.recent > li a span {
+    font-size: 13px;
+    color: #fff;
+}
+.recent span > a {
+    color: white;
+}
+.recent h6 > a {
+    color: #088dcd;
+}
+.recent > li a ins {
+    float: right;
+    font-size: 12px;
+    margin-top: 4px;
+    text-decoration: none;
+    color: #fff;
+}
+.widgetTitle {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    color: #ffffff;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 30px;
+    padding: 20px 20px 10px;
+    position: relative;
+    text-transform: capitalize;
+    width: 100%;
+    box-sizing: border-box;
+}
+.widgetTitle::before {
+    bottom: 0;
+    content: "";
+    height: 2px;
+    left: 20px;
+    position: absolute;
+    width: 20%;
+    background-color:#088dcd;
+}
+.recent_activity {
+    display: inline-block;
+    width: 100%;
+}
+.widget li i {
+    color: #999;
+    display: inline-block;
+    font-size: 11px;
+    margin-right: 5px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+.activity-meta > span {
+    display: inline-block;
+    width: 100%;
+    font-size: 13px;
+    font-weight: 500;
+}
+.activity-meta > h6 a {
+    color: #088dcd;
+    outline: none;
+}
+h6 {
+    padding: 0;
+    margin: 0;
+}

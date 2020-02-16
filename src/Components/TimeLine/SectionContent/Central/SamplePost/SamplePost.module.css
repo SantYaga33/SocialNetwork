@@ -1,0 +1,136 @@
+
+.widget {
+    box-sizing: border-box;
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    margin-bottom: 18px;
+    border: 1px solid #3e3e3e;
+    border-radius: 5px;
+    background: #424242 none repeat scroll 0 0;
+
+}
+.samplePost_wrap {
+    border-color: transparent;
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 17px;
+    padding: 25px;
+    box-sizing: border-box;
+}
+
+.samplePost_Post {
+    display: flex;
+    width: 100%;
+}
+.samplePost_Ava {
+    width: 8%;
+}
+.samplePost_Ava img {
+    border-radius: 100%;
+    height: auto;
+    max-width: 100%;
+    vertical-align: middle;
+    border-style: none;
+}
+.samplePost_author {
+    display: inline-block;
+    padding-left: 10px;
+    vertical-align: middle;
+    width: 90%;
+}
+
+.samplePost_title a {
+    color: #088dcd;
+    display: flex;
+    font-weight: 500;
+    width: 100%;
+    font-size: 14.5px;
+    text-decoration: none;
+}
+.samplePost_discr {
+    color: #cccccc;
+    float: left;
+    font-size: 12px;
+    text-transform: capitalize;
+    width: 100%;
+}
+.samplePost_wrapImg {
+    width: 100%;
+    height: auto;
+    margin-top: 15px;
+}
+.samplePost_icons {
+    width: 100%;
+    display: flex;
+    padding: 15px 0 10px;
+    /*z-index: 0;*/
+}
+.samplePost_icon {
+    position: relative;
+    margin-right: 50px;
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+    cursor: pointer;
+}
+.samplePost_icon svg {
+    font-size: 16px;
+    font-weight: 400;
+}
+.samplePost_icon_eye:hover, .samplePost_icon_comments:hover {
+    transform: scale(1.5);
+    color: #ff6600;
+    transition: all 200ms ease;
+}
+
+
+.samplePost_icon_heart,.samplePost_icon_heart+ ins  {
+    color: #008000;
+}
+.samplePost_icon_heartbeat, .samplePost_icon_heartbeat+ ins {
+    color: #ff0000;
+}
+.samplePost_icon_share,.samplePost_icon_share + ins {
+    color: #0000cc;
+}
+.samplePost_icon_heart:hover,.samplePost_icon_heartbeat:hover,
+.samplePost_icon_share:hover {
+    transform: scale(1.5);
+    transition: all 200ms ease;
+}
+
+
+.samplePost_icon ins {
+    font-size: 11px;
+    left: 20px;
+    position: absolute;
+    text-decoration: none;
+    top: -4px;
+    margin-left: 5px;
+}
+
+.samplePost_text {
+    margin-bottom: 20px;
+    color: #ccc;
+    font-size: 14px;
+    line-height: 26px;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
