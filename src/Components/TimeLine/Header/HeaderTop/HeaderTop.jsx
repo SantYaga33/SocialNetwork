@@ -1,11 +1,19 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import topAva from './HeaderTop_Img/navAva1.jpg'
 import styles from  './HeaderTop.module.css';
+import General from "../../General/General";
+
+
+
+
+const headerTopNames =['Home','Timeline','Account Setting','More Pages'];
+const newHeaderTopNames = headerTopNames.map(el => <General title={el}/>);
+
 
 
 
 const HeaderTop = () => {
+
 	return (
 		<div className={styles.headerTop}>
 			<div className={styles.headerTop_logo}>
@@ -14,10 +22,7 @@ const HeaderTop = () => {
 			<div className={styles.headerTop_wrap}>
 				<div className={styles.headerTop_links}>
 					<ul>
-						<li><span>Home</span></li>
-						<li><span>Timeline</span></li>
-						<li><span>Account Setting</span></li>
-						<li><span>More Pages</span></li>
+						{ newHeaderTopNames }
 					</ul>
 				</div>
 				<div className={styles.headerTop_iconWrap}>
@@ -38,9 +43,7 @@ const HeaderTop = () => {
 					</div>
 				</div>
 			</div>
-			<div className={styles.headerTop_ava}>
-				{/*<img src={topAva } alt="avatar"/>*/}
-			</div>
+			<div className={styles.headerTop_ava}></div>
 			<div className={styles.headerTop_menu}>
 				<FontAwesomeIcon icon='align-right' />
 			</div>

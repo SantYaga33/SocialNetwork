@@ -38,7 +38,7 @@
     height: auto;
 }
 .headerNavbar_ul {
-    display: inline-block;
+    display: flex;
     list-style: outside none none;
     margin-bottom: 0;
     padding-left: 20px;
@@ -54,7 +54,7 @@ li {
     cursor: pointer;
 }
 .headerNavbar_ul li {
-    display: inline-block;
+    display: flex;
     margin-right: 50px;
     position: relative;
     vertical-align: middle;
@@ -109,7 +109,7 @@ h5 {
     vertical-align: super;
 }
 .headerNavbar_admin span {
-    bottom: 0px;
+    bottom: -7px;
     font-size: 10px;
     line-height: 5px;
     position: absolute;

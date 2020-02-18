@@ -1,7 +1,10 @@
 import React from 'react';
-import classNames from 'classnames';
 import styles from  './HeaderNav.module.css';
-import navAva from './HeaderNav_Img/navAva1.jpg'
+import General from "../../General/General";
+
+
+const headerNavNames =['Photos','Videos','Friends','Groups','About','More'];
+const newHeaderNavNames = headerNavNames.map(el => <General title={el}/>);
 
 
 const HeaderNav = () => {
@@ -16,13 +19,8 @@ const HeaderNav = () => {
 						<span>admin</span>
 					</li>
 					<li className={styles.headerNavbar_links}>
-						<li className={classNames(styles.headerNavbar_item,styles.headerNavbar_active )}>Timeline</li>
-						<li className={styles.headerNavbar_item}>Photos</li>
-						<li className={styles.headerNavbar_item}>Videos</li>
-						<li className={styles.headerNavbar_item}>Friends</li>
-						<li className={styles.headerNavbar_item}>Groups</li>
-						<li className={styles.headerNavbar_item}>About</li>
-						<li className={styles.headerNavbar_item}>More</li>
+						<li className={styles.headerNavbar_active}>Timeline</li>
+						{ newHeaderNavNames }
 					</li>
 				</ul>
 		</div>
