@@ -21,7 +21,9 @@ const Footer = () => {
 								<div >+8 800 00 00 </div>
 							</div>
 						</div>
-						<div className={styles.footer_blockInfo}></div>
+						<div className={styles.footer_blockInfo}>
+							block 2
+						</div>
 						<div className={styles.footer_blockInfo}></div>
 						<div className={styles.footer_blockInfo}></div>
 						<div className={styles.footer_blockInfo}></div>
