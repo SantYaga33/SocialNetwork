@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from  './HeaderNav.module.css';
-import General from "../../General/General";
+import General from "../../General/Generate_li";
 
 
 const headerNavNames =['Photos','Videos','Friends','Groups','About','More'];

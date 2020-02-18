@@ -1,13 +1,14 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import styles from  './HeaderTop.module.css';
-import General from "../../General/General";
+import Generate_li from "../../General/Generate_li";
+
 
 
 
 
 const headerTopNames =['Home','Timeline','Account Setting','More Pages'];
-const newHeaderTopNames = headerTopNames.map(el => <General title={el}/>);
+const newHeaderTopNames = headerTopNames.map(el => <Generate_li title={el}/>);
 
 
 
