@@ -25,13 +25,13 @@ const Footer = () => {
 							block 2
 						</div>
 						<div className={styles.footer_blockInfo}>
-							asdasdasd
+							asdas
 						</div>
 						<div className={styles.footer_blockInfo}>
-							asdasdasd
+							asdas
 						</div>
 						<div className={styles.footer_blockInfo}>
-							asdasdsdas
+							asdas
 						</div>
 					</div>
 				</div>
