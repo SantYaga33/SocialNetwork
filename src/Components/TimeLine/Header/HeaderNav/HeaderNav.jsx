@@ -1,10 +1,11 @@
 import React from 'react';
 import styles from  './HeaderNav.module.css';
-import General from "../../General/Generate_li";
+import Generate_li from "../../General/Generate_li";
+
 
 
 const headerNavNames =['Photos','Videos','Friends','Groups','About','More'];
-const newHeaderNavNames = headerNavNames.map(el => <General title={el}/>);
+const newHeaderNavNames = headerNavNames.map(el => <Generate_li title={el}/>);
 
 
 const HeaderNav = () => {
