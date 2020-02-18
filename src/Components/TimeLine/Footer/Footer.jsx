@@ -31,7 +31,7 @@ const Footer = () => {
 							asdas
 						</div>
 						<div className={styles.footer_blockInfo}>
-							asdas
+						BLOCK
 						</div>
 					</div>
 				</div>
