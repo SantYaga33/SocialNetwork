@@ -7,8 +7,8 @@ import Generate_li from "../../General/Generate_li";
 
 
 
-const headerTopNames =['Home','Timeline','Account Setting','More Pages'];
-const newHeaderTopNames = headerTopNames.map(el => <Generate_li title={el}/>);
+const headerTopLinks =['Home','Timeline','Account setting','More pages'];
+const newHeaderTopLinks = headerTopLinks.map(el => <Generate_li title={el} to={`/${el}`}/>);
 
 
 
@@ -23,7 +23,7 @@ const HeaderTop = () => {
 			<div className={styles.headerTop_wrap}>
 				<div className={styles.headerTop_links}>
 					<ul>
-						{ newHeaderTopNames }
+						{ newHeaderTopLinks }
 					</ul>
 				</div>
 				<div className={styles.headerTop_iconWrap}>

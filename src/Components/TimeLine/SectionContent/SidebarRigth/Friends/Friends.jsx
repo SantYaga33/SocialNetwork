@@ -1,15 +1,15 @@
 import React from 'react';
 import className from 'classnames';
+
 import styles from './Friends.module.css';
 import img1 from './Friends_Img/1.png'
 import img2 from './Friends_Img/2.png'
 import img3 from './Friends_Img/3.png'
 import img4 from './Friends_Img/4.png'
-import img5 from './Friends_Img/1.png'
+
 
 
 import Generate_ava_status from "../../../General/Generate_ava_status";
-
 
 const friendsListOld = [
 	{
@@ -123,6 +123,6 @@ const Friends = () => {
 				</ul>
 		</div>
 	);
-}
+};
 
 export default Friends;

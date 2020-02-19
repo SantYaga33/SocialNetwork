@@ -4,6 +4,8 @@ import TimeLine from "./Components/TimeLine/TimeLine";
 
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab } from '@fortawesome/free-brands-svg-icons'
+import {BrowserRouter } from "react-router-dom";
+
 
 import { faCoffee ,faSearch,faHome ,faCommentAlt,
     faClipboard,faMouse, faFile,faUser,faImages,
@@ -11,6 +13,7 @@ import { faCoffee ,faSearch,faHome ,faCommentAlt,
     faPowerOff,faGlobeAsia,faAlignRight, faEye, faComments,
     faHeart, faHeartbeat,faShareAltSquare, faReply , faMusic,faImage,
     faFileVideo, faCamera, faAddressCard, faMobileAlt} from '@fortawesome/free-solid-svg-icons'
+
 
 
 library.add(fab, faCoffee ,faSearch,faHome ,faCommentAlt,
@@ -23,7 +26,10 @@ library.add(fab, faCoffee ,faSearch,faHome ,faCommentAlt,
 
 const  App = () => {
     return (
-        <TimeLine/>
+       <BrowserRouter>
+            <TimeLine/>
+       </BrowserRouter>
+
     );
 };
 

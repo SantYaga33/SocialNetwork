@@ -1,11 +1,12 @@
 import React from 'react';
-
-
+import {NavLink} from "react-router-dom";
 
 
 const Generate_li = (props) => {
 	return (
-		<li>{props.title}</li>
+		<li>
+			<a to={props.to} > {props.title} </a>
+		</li>
 	);
 };
 
