@@ -3,10 +3,8 @@ import styles from  './HeaderNav.module.css';
 import Generate_li from "../../General/Generate_li";
 
 
-
 const headerNavNames =['Photos','Videos','Friends','Groups','About','More'];
 const newHeaderNavNames = headerNavNames.map(el => <Generate_li title={el}/>);
-
 
 const HeaderNav = () => {
 	return (
@@ -26,6 +24,6 @@ const HeaderNav = () => {
 				</ul>
 		</div>
 	);
-}
+};
 
 export default HeaderNav;

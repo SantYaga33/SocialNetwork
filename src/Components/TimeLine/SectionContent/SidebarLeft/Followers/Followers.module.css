@@ -36,26 +36,7 @@
     vertical-align: top;
     box-sizing: border-box;
 }
-.socials > li {
-    margin-bottom: 10px;
-}
-.socials > li a {
-    padding: 3px 10px;
-    width: 100%;
-    box-sizing: border-box;
-}
 
-.socials > li a span {
-    font-size: 13px;
-    color: #fff;
-}
-.socials > li a ins {
-    float: right;
-    font-size: 12px;
-    margin-top: 4px;
-    text-decoration: none;
-    color: #fff;
-}
 .widgetTitle {
     background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
     color: #ffffff;
