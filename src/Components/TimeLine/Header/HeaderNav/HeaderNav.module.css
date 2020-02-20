@@ -91,6 +91,9 @@ li {
 .headerNavbar_ul li > li:hover {
      color: #088dcd;
  }
+.headerNavbar_ul li > li a:hover {
+    color: #088dcd;
+}
 
 
 .headerNavbar_admin {
@@ -117,7 +120,9 @@ h5 {
 }
 .headerNavbar_links {
     display: flex;
-
+}
+.headerNavbar_links a {
+    color: white;
 }
 .headerNavbar_active {
     color: #088dcd;

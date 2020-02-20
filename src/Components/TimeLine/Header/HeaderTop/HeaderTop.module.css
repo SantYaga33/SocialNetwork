@@ -41,6 +41,10 @@
     justify-content: space-between;
     vertical-align: middle
 }
+.headerTop_links ul > li >  a {
+    color: white;
+}
+
 .headerTop_iconWrap {
     display: flex;
     justify-content: flex-end;
