@@ -13,13 +13,14 @@ const SectionContent = () => {
 			<div className={styles.section_wrap}>
 				<div className={styles.container}>
 					<div className={styles.content_wrap}>
+
 						<SidebarLeft />
-							<Route path='/Photos'  component={ CentralContent }/>
-							<Route path='/Videos' component={ SidebarLeft }/>
-							<Route path='/Friends' component={ SidebarRigth }/>
-							{/*<Route path='/Groups' component={ CentralContent }/>*/}
-							{/*<Route path='/About' component={ CentralContent }/>*/}
-							{/*<Route path='/More' component={ CentralContent }/>*/}
+							<Route path='/Timeline'  render={ () => <CentralContent /> }/>
+							<Route path='/Photos'   render={ () => <CentralContent />}/>
+							<Route path='/Groups' render={ () => <SidebarLeft /> }/>
+							<Route path='/Friends' render={ () => <SidebarRigth /> }/>
+							<Route path='/Messages' render={ () => <CentralContent /> }/>
+
 						{/*<CentralContent/>*/}
 						<SidebarRigth />
 					</div>

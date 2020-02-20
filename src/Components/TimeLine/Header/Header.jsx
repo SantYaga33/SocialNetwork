@@ -5,7 +5,7 @@ import HeaderBg from "./HeaderBg/HeaderBg";
 import HeaderNav from "./HeaderNav/HeaderNav";
 
 
-const Header = () => {
+const Header = (props) => {
 	return (
 		<div>
 			<header className={styles.header}>
@@ -14,7 +14,7 @@ const Header = () => {
 			</header>
 			<section >
 				<HeaderBg />
-				<HeaderNav />
+				<HeaderNav headerNavLinks={props.headerNavLinks}/>
 			</section>
 		</div>
 

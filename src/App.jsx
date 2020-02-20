@@ -24,10 +24,10 @@ library.add(fab, faCoffee ,faSearch,faHome ,faCommentAlt,
     faAddressCard, faMobileAlt);
 
 
-const  App = () => {
+const  App = (props) => {
     return (
        <BrowserRouter>
-            <TimeLine/>
+           <TimeLine headerNavLinks={props.headerNavLinks}/>
        </BrowserRouter>
 
     );

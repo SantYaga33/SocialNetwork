@@ -5,8 +5,7 @@ import {NavLink} from "react-router-dom";
 const Generate_li = (props) => {
 	return (
 		<li>
-			<NavLink to={props.to}> {props.title} </NavLink>
-			<NavLink to={props.to}> {props.title} activeClassName={props.active} </NavLink>
+			<NavLink to={props.to}  activeClassName={props.active}> {props.title}</NavLink>
 		</li>
 	);
 };

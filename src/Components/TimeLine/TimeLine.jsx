@@ -6,10 +6,10 @@ import Footer from "./Footer/Footer";
 
 
 
-const TimeLine = () => {
+const TimeLine = (props) => {
 	return (
 		<div className={styles.timeLine}>
-			<Header />
+			<Header headerNavLinks={props.headerNavLinks}/>
 			<SectionContent/>
 			<Footer/>
 		</div>
