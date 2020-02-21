@@ -257,10 +257,13 @@
     top: 50%;
     transform: translateY(-50%);
     width: 30px;
-
-    background-color: #0000cc;
+    border-color: transparent;
+    outline: none;
+    background-color: #088dcd;
 }
-
+.chatText_icon {
+    color: #fff;
+}
 
 
 

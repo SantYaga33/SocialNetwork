@@ -96,7 +96,7 @@ const Messages = () => {
 						<div className={styles.messages_chatText}>
 							<form action="">
 								<textarea name="" id="" cols="30" rows="10" placeholder='new massage'></textarea>
-								<button></button>
+								<button><FontAwesomeIcon icon='paper-plane'className={styles.chatText_icon} /></button>
 							</form>
 						</div>
 					</div>

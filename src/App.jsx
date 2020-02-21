@@ -12,7 +12,7 @@ import { faCoffee ,faSearch,faHome ,faCommentAlt,
     faVideo,faSms,faBell, faStreetView,faChartLine,
     faPowerOff,faGlobeAsia,faAlignRight, faEye, faComments,
     faHeart, faHeartbeat,faShareAltSquare, faReply , faMusic,faImage,
-    faFileVideo, faCamera, faAddressCard, faMobileAlt,faEllipsisH} from '@fortawesome/free-solid-svg-icons'
+    faFileVideo, faCamera, faAddressCard, faMobileAlt,faEllipsisH,faPaperPlane} from '@fortawesome/free-solid-svg-icons'
 
 
 
@@ -21,7 +21,7 @@ library.add(fab, faCoffee ,faSearch,faHome ,faCommentAlt,
     faVideo,faSms,faBell, faStreetView,faChartLine,faPowerOff,
     faAlignRight, faEye, faComments, faHeart, faHeartbeat,
     faShareAltSquare,faReply,faMusic,faImage, faFileVideo, faCamera,
-    faAddressCard, faMobileAlt,faEllipsisH);
+    faAddressCard, faMobileAlt,faEllipsisH,faPaperPlane);
 
 
 const  App = (props) => {
