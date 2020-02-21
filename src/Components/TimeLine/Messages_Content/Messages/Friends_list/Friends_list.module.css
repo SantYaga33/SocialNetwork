@@ -1,0 +1,179 @@
+
+.widget {
+    box-sizing: border-box;
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    margin-bottom: 18px;
+    border: 1px solid #3e3e3e;
+    border-radius: 5px;
+    background: #424242 none repeat scroll 0 0;
+
+}
+.widget > ul {
+    display: inline-block;
+    list-style: outside none none;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding: 0 25px 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.widget > li {
+    display: inline-block;
+    margin-bottom: 20px;
+    position: relative;
+    width: 100%;
+    box-sizing: border-box;
+}
+.widget li > a {
+    font-size: 14px;
+    text-transform: capitalize;
+    display: inline-block;
+    position: relative;
+    font-weight: 400;
+    color: #797979;
+    vertical-align: top;
+    box-sizing: border-box;
+}
+
+.friends_title {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    color: #ffffff;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 30px;
+    padding: 20px 20px 10px;
+    position: relative;
+    text-transform: capitalize;
+    width: 100%;
+    box-sizing: border-box;
+}
+.friends_title::before {
+    bottom: 0;
+    content: "";
+    height: 2px;
+    left: 20px;
+    position: absolute;
+    width: 20%;
+    background-color:#088dcd;
+}
+.friends {
+    overflow: hidden;
+    position: relative;
+    max-height: 440px;
+}
+.friends:hover {
+    overflow-y:auto;
+}
+.friends > li {
+    display: flex;
+    border-bottom: 1px solid #535353;
+    cursor: pointer;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 0px;
+    width: 100%;
+    position: relative;
+    transition: all 0.2s linear 0s;
+}
+.friends > li:hover {
+    background-color: #343434;
+    transition: all 0.2s linear 0s;
+}
+
+.friends > li figure {
+    display: inline-block;
+    margin-bottom: 0;
+    max-width: 35px;
+    min-width: 35px;
+    vertical-align: middle;
+    width: 35px;
+    height: 35px;
+    position: relative;
+
+}
+.status{
+    background: #bebebe none repeat scroll 0 0;
+    border-radius: 50%;
+    bottom: 0;
+    display: inline-block;
+    height: 12px;
+    padding: 2px;
+    position: absolute;
+    right: 0;
+    width: 12px;
+    background-color: #7FBA00;
+    box-sizing: border-box;
+}
+.status:after {
+    background: white none repeat scroll 0 0;
+    border-radius: 100%;
+    content: "";
+    height: 6px;
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 6px;
+}
+.status_online {
+    background-color: #7FBA00;
+}
+.status_afk {
+    background-color: #ffd300;
+}
+.status_offline {
+    background-color: #a9a9a9;
+}
+
+.friends > li figure img {
+    height: 100%;
+    border-radius: 100%;
+    border: 1px solid #ffffff;
+}
+
+.friend_meta {
+    display: inline-block;
+    padding-left: 10px;
+    vertical-align: middle;
+    width: 72%;
+}
+.friend_meta > h4 {
+    display: inline-block;
+    font-size: 13.5px;
+    margin-bottom: 0;
+    width: 100%;
+    margin-top: 0;
+}
+.friend_meta > a {
+    display: inline-block;
+    font-size: 12px;
+    position: relative;
+    color: #088dcd;
+}
+.friend_meta > h4 a {
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

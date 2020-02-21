@@ -41,8 +41,18 @@
     justify-content: space-between;
     vertical-align: middle
 }
+/*.headerTop_links ul > li:after  {*/
+/*    content: "";*/
+/*    font-family: fontawesome;*/
+/*    font-size: 13px;*/
+/*    position: absolute;*/
+/*    right: 10px;*/
+/*    top: 0px;*/
+/*}*/
+
 .headerTop_links ul > li >  a {
     color: white;
+    padding: 0 15px;
 }
 
 .headerTop_iconWrap {
