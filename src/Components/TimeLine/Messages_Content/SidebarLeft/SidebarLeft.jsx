@@ -17,6 +17,6 @@ const SidebarLeft = () => {
 			</div>
 		</div>
 	);
-}
+};
 
 export default SidebarLeft;

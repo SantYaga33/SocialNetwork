@@ -17,8 +17,14 @@ const chortcuts = [
 	{icon: 'power-off', className: styles.shortcuts_icon, href: 'landing.html', name: 'Logout'}
 ];
 
-const newShortcuts = chortcuts.map(el => <Generate_li_icon_a className={el.className} icon={el.icon}
-															 href={el.href} name={el.name}/>);
+const newShortcuts = chortcuts.map(el => {
+	let idx = chortcuts.indexOf(el);
+	while (idx <= chortcuts.length-4) {
+		<Generate_li_icon_a className={el.className} icon={el.icon}
+							href={el.href} name={el.name}/>
+
+	}
+});
 
 const Shortcuts = () => {
 	return (
