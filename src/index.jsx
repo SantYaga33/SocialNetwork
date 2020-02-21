@@ -5,7 +5,7 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 
 
-const headerNavLinks = ['Timeline','Photos','Friends','Messages','Groups','About','More',];
+const headerNavLinks = ['Timeline','Photos','Friends','Messages','Groups','About','More'];
 
 
 
