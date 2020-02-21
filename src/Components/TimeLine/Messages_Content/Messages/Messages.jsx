@@ -36,6 +36,7 @@ const Messages = () => {
 
 						<div className={styles.messages_chatArea}>
 							<ul>
+								<div className={styles.toolbar}></div>
 								<li className={styles.you}>
 									<div className={styles.chatArea_ava}>
 										<img src={img} alt=""/>
@@ -92,10 +93,12 @@ const Messages = () => {
 						</div>
 
 
-
-
-
-						<div className={styles.messages_chatText}></div>
+						<div className={styles.messages_chatText}>
+							<form action="">
+								<textarea name="" id="" cols="30" rows="10" placeholder='new massage'></textarea>
+								<button></button>
+							</form>
+						</div>
 					</div>
 				</div>
 			</div>

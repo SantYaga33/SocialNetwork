@@ -119,7 +119,7 @@
     display: inline-block;
     list-style: outside none none;
     margin-bottom: 0;
-    max-height: 322px;
+    max-height: 370px;
     box-sizing: border-box;
     padding: 40px 15px 10px 0;
     width: 100%;
@@ -127,7 +127,7 @@
     overflow: hidden;
 }
 .messages_chatArea ul:hover {
-    overflow-y:auto;
+    overflow-y: overlay;
 }
 
 .messages_chatArea ul > li {
@@ -221,14 +221,44 @@
     border-bottom: 8px solid transparent;
     box-sizing: border-box;
     border-right-color: #424242;
-
-
-
 }
 .me .chatArea_text {
     background: rgba(39, 170, 225, 0.1);
     text-align: left;
+}
 
+.messages_chatText {
+    position: relative;
+}
+
+.messages_chatText textarea {
+    border-radius: 0;
+    box-sizing: content-box;
+    height: 50px;
+    overflow: hidden;
+    resize: none;
+    display: inline-block;
+    width: 93%;
+    color: #eee;
+    background: #393939 none repeat scroll 0 0;
+    border: 1px solid transparent;
+    padding: 10px;
+    outline: none;
+
+}
+
+.messages_chatText button {
+    border-radius: 100%;
+    height: 30px;
+    padding: 0;
+    position: absolute;
+    right: 13px;
+    text-align: center;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 30px;
+
+    background-color: #0000cc;
 }
 
 
@@ -237,21 +267,21 @@
 
 
 h4, p {
-    padding: 0;
-    margin: 0;
+padding: 0;
+margin: 0;
 }
 
 a {
-    padding: 0;
-    margin: 0;
-    text-decoration: none;
+padding: 0;
+margin: 0;
+text-decoration: none;
 }
 
 li {
-    padding: 0;
-    margin: 0;
+padding: 0;
+margin: 0;
 }
 ul {
-    padding: 0;
-    margin: 0;
+padding: 0;
+margin: 0;
 }
