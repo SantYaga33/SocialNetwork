@@ -17,6 +17,7 @@
     border: 1px solid #3e3e3e;
     border-radius: 5px;
     padding: 25px;
+    padding-bottom: 42px;
     background: #424242 none repeat scroll 0 0;
     min-height: 462px;
     flex-wrap: wrap;
@@ -127,7 +128,8 @@
     overflow: hidden;
 }
 .messages_chatArea ul:hover {
-    overflow-y: overlay;
+    /*overflow-y: overlay;*/
+    overflow-y: auto;
 }
 
 .messages_chatArea ul > li {
@@ -264,10 +266,6 @@
 .chatText_icon {
     color: #fff;
 }
-
-
-
-
 
 h4, p {
 padding: 0;

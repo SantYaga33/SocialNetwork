@@ -12,8 +12,9 @@ const TimeLine = (props) => {
 	return (
 		<div className={styles.timeLine}>
 			<Header headerNavLinks={props.headerNavLinks}/>
-			<Route path='/Timeline'  render={ () => <TimeLine_Content /> }/>
-			<Route path='/Messages'  render={ () => <Messages_Content /> }/>
+			{/*<Route path='/' exact  render={ () => <TimeLine_Content /> }/>*/}
+			{/*<Route path='/Timeline'  render={ () => <TimeLine_Content /> }/>*/}
+			{/*<Route path='/Messages'  render={ () => <Messages_Content /> }/>*/}
 			<Footer/>
 		</div>
 
