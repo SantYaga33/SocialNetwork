@@ -128,8 +128,8 @@
     overflow: hidden;
 }
 .messages_chatArea ul:hover {
-    /*overflow-y: overlay;*/
-    overflow-y: auto;
+    overflow-y: overlay;
+    /*overflow-y: auto;*/
 }
 
 .messages_chatArea ul > li {
