@@ -21,6 +21,66 @@ const NewFriends = () => {
 				</div>
 				<ul className={styles.newFriends_infoCards}>
 					<li>
+					<div className={styles.card_ava}>
+						<img src={img} alt=""/>
+					</div>
+					<div className={styles.card_info}>
+						<div>
+							<div className={styles.card_title}>Jhon Kates</div>
+							<div className={styles.card_discr}>Ftv Model</div>
+						</div>
+						<div className={styles.card_buttons}>
+							<button className={styles.card_buttonRemove}>Unfriend</button>
+							<button className={styles.card_buttonAdd}>Add Friend</button>
+						</div>
+					</div>
+				</li>
+					<li>
+						<div className={styles.card_ava}>
+							<img src={img1} alt=""/>
+						</div>
+						<div className={styles.card_info}>
+							<div>
+								<div className={styles.card_title}>Jhon Kates</div>
+								<div className={styles.card_discr}>Ftv Model</div>
+							</div>
+							<div className={styles.card_buttons}>
+								<button className={styles.card_buttonRemove}>Unfriend</button>
+								<button className={styles.card_buttonAdd}>Add Friend</button>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div className={styles.card_ava}>
+							<img src={img2} alt=""/>
+						</div>
+						<div className={styles.card_info}>
+							<div>
+								<div className={styles.card_title}>Jhon Kates</div>
+								<div className={styles.card_discr}>Ftv Model</div>
+							</div>
+							<div className={styles.card_buttons}>
+								<button className={styles.card_buttonRemove}>Unfriend</button>
+								<button className={styles.card_buttonAdd}>Add Friend</button>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div className={styles.card_ava}>
+							<img src={img3} alt=""/>
+						</div>
+						<div className={styles.card_info}>
+							<div>
+								<div className={styles.card_title}>Jhon Kates</div>
+								<div className={styles.card_discr}>Ftv Model</div>
+							</div>
+							<div className={styles.card_buttons}>
+								<button className={styles.card_buttonRemove}>Unfriend</button>
+								<button className={styles.card_buttonAdd}>Add Friend</button>
+							</div>
+						</div>
+					</li>
+					<li>
 						<div className={styles.card_ava}>
 							<img src={img} alt=""/>
 						</div>
@@ -80,7 +140,6 @@ const NewFriends = () => {
 							</div>
 						</div>
 					</li>
-
 				</ul>
 
 			</div>

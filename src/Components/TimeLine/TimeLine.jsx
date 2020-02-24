@@ -6,7 +6,8 @@ import Footer from "./Footer/Footer";
 
 import Messages_Content from "./Messages_Content/Messages_Content";
 import {Route} from "react-router-dom";
-import NewFriends_Content from "./NewFriends_content/NewFriends_Content";
+import NewFriends_Content from "./NewFriends_Content/NewFriends_Content";
+import Photos_Content from "./Photos_Content/Photos_Content";
 
 
 
@@ -17,7 +18,8 @@ const TimeLine = (props) => {
 			<Route path='/' exact    render={ () => <TimeLine_Content /> }/>
 			<Route path='/Timeline'  render={ () => <TimeLine_Content /> }/>
 			<Route path='/Messages'  render={ () => <Messages_Content /> }/>
-			<Route path='/Friends'  render={ () => <NewFriends_Content /> }/>
+			<Route path='/Friends'   render={ () => <NewFriends_Content /> }/>
+			<Route path='/Photos'    render={ () => <Photos_Content /> }/>
 			<Footer/>
 		</div>
 
