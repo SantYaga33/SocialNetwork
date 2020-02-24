@@ -4,13 +4,8 @@ import styles from  './HeaderTop.module.css';
 import Generate_li from "../../General/Generate_li";
 
 
-
-
-
 const headerTopLinks =['Home','Timeline','Account setting','More pages'];
 const newHeaderTopLinks = headerTopLinks.map(el => <Generate_li title={el} to={`/${el}`}/>);
-
-
 
 
 const HeaderTop = () => {
@@ -50,6 +45,6 @@ const HeaderTop = () => {
 			</div>
 		</div>
 	);
-}
+};
 
 export default HeaderTop;

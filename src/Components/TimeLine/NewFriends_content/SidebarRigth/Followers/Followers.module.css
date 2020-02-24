@@ -37,7 +37,7 @@
     box-sizing: border-box;
 }
 
-.friends_title {
+.widgetTitle {
     background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
     color: #ffffff;
     display: inline-block;
@@ -50,7 +50,7 @@
     width: 100%;
     box-sizing: border-box;
 }
-.friends_title::before {
+.widgetTitle::before {
     bottom: 0;
     content: "";
     height: 2px;
@@ -59,19 +59,18 @@
     width: 20%;
     background-color:#088dcd;
 }
-.friends {
+.followers {
+    max-height: 262px;
     overflow: hidden;
-    position: relative;
-    max-height: 440px;
 }
-.friends  li {
+.followers  li {
     padding-bottom: 15px;
 }
 
-.friends:hover {
+.followers:hover {
     overflow-y:auto;
 }
-.friends > li figure {
+.followers > li figure {
     display: inline-block;
     margin-bottom: 0;
     max-width: 45px;
@@ -79,44 +78,9 @@
     vertical-align: middle;
     width: 45px;
     height: 45px;
-    position: relative;
 
 }
-.status{
-    background: #bebebe none repeat scroll 0 0;
-    border-radius: 50%;
-    bottom: 0;
-    display: inline-block;
-    height: 12px;
-    padding: 2px;
-    position: absolute;
-    right: 0;
-    width: 12px;
-    background-color: #7FBA00;
-    box-sizing: border-box;
-}
-.status:after {
-    background: white none repeat scroll 0 0;
-    border-radius: 100%;
-    content: "";
-    height: 6px;
-    left: 50%;
-    position: absolute;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    width: 6px;
-}
-.status_online {
-    background-color: #7FBA00;
-}
-.status_afk {
-    background-color: #ffd300;
-}
-.status_offline {
-    background-color: #a9a9a9;
-}
-
-.friends > li figure img {
+.followers > li figure img {
     height: 100%;
     border-radius: 100%;
     border: 1px solid #ffffff;
@@ -143,24 +107,3 @@
 .friend_meta > h4 a {
     color: white;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

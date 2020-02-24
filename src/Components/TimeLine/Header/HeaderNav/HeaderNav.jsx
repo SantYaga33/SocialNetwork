@@ -29,6 +29,7 @@ const HeaderNav = (props) => {
 
 export default HeaderNav;
 
+
 HeaderNav.propTypes = {
 	headerNavLinks: PropTypes.array
 };

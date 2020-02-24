@@ -1,17 +1,20 @@
 import React from 'react';
-import styles from './Messages_Content.module.css';
+import styles from './NewFriends_Content.module.css';
 import SidebarLeft from "./SidebarLeft/SidebarLeft";
-import Messages from "./Messages/Messages";
+
+import NewFriends from "./NewFriends/NewFriends";
+import SidebarRigth from "./SidebarRigth/SidebarRigth";
 
 
-const Messages_Content = () => {
+const NewFriends_Content = () => {
 	return (
 		<section >
 			<div className={styles.section_wrap}>
 				<div className={styles.container}>
 					<div className={styles.content_wrap}>
 						<SidebarLeft />
-						<Messages/>
+						<NewFriends/>
+						<SidebarRigth/>
 					</div>
 				</div>
 			</div>
@@ -19,4 +22,4 @@ const Messages_Content = () => {
 	);
 };
 
-export default Messages_Content;
+export default NewFriends_Content;
