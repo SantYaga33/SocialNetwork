@@ -47,7 +47,9 @@
 .newFriends_title h4 {
     margin-right: 20px;
 }
-.newFriends_titleActive h4 {
+
+
+.newFriends_titleActive  h4 {
     color: #088dcd;
     border-bottom: 1px solid #088dcd;
 }
