@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/SocialNetwork/static/css/main.bb9c927b.chunk.css",
+    "main.js": "/SocialNetwork/static/js/main.f99af84d.chunk.js",
+    "main.js.map": "/SocialNetwork/static/js/main.f99af84d.chunk.js.map",
+    "runtime-main.js": "/SocialNetwork/static/js/runtime-main.bef9021c.js",
+    "runtime-main.js.map": "/SocialNetwork/static/js/runtime-main.bef9021c.js.map",
+    "static/js/2.c8238d0a.chunk.js": "/SocialNetwork/static/js/2.c8238d0a.chunk.js",
+    "static/js/2.c8238d0a.chunk.js.map": "/SocialNetwork/static/js/2.c8238d0a.chunk.js.map",
+    "index.html": "/SocialNetwork/index.html",
+    "precache-manifest.c9ec7ac8236566f210144ee7dbf73d4f.js": "/SocialNetwork/precache-manifest.c9ec7ac8236566f210144ee7dbf73d4f.js",
+    "service-worker.js": "/SocialNetwork/service-worker.js",
+    "static/css/main.bb9c927b.chunk.css.map": "/SocialNetwork/static/css/main.bb9c927b.chunk.css.map",
+    "static/js/2.c8238d0a.chunk.js.LICENSE.txt": "/SocialNetwork/static/js/2.c8238d0a.chunk.js.LICENSE.txt",
+    "static/media/1.jpg": "/SocialNetwork/static/media/1.6a42935d.jpg",
+    "static/media/1.png": "/SocialNetwork/static/media/1.98b49d59.png",
+    "static/media/2.jpg": "/SocialNetwork/static/media/2.3c87be11.jpg",
+    "static/media/2.png": "/SocialNetwork/static/media/2.81cccf19.png",
+    "static/media/3.png": "/SocialNetwork/static/media/3.33bc9d8a.png",
+    "static/media/3.jpg": "/SocialNetwork/static/media/3.fef6c605.jpg",
+    "static/media/4.jpg": "/SocialNetwork/static/media/4.bca59387.jpg",
+    "static/media/4.png": "/SocialNetwork/static/media/4.f86c0715.png",
+    "static/media/5.png": "/SocialNetwork/static/media/5.e8d6f3d1.png",
+    "static/media/6.jpg": "/SocialNetwork/static/media/6.18cb7f8a.jpg",
+    "static/media/7.jpg": "/SocialNetwork/static/media/7.72949e9d.jpg",
+    "static/media/8.jpg": "/SocialNetwork/static/media/8.661fef1d.jpg",
+    "static/media/ad-widget.gif": "/SocialNetwork/static/media/ad-widget.2c08a793.gif",
+    "static/media/drive.png": "/SocialNetwork/static/media/drive.16565bce.png",
+    "static/media/main-bg-50.png": "/SocialNetwork/static/media/main-bg-50.f02cbae0.png",
+    "static/media/HeaderNav.module.css": "/SocialNetwork/static/media/navAva1.3f86f4d6.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bef9021c.js",
+    "static/js/2.c8238d0a.chunk.js",
+    "static/css/main.bb9c927b.chunk.css",
+    "static/js/main.f99af84d.chunk.js"
+  ]
+}
