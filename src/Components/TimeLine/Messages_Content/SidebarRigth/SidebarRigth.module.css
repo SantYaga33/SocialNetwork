@@ -13,6 +13,8 @@
     margin: 0 auto;
     padding-bottom: 20px;
     width: 100%;
+    min-height: 1650px;
+    flex-direction: column;
 }
 .widget {
     display: flex;
