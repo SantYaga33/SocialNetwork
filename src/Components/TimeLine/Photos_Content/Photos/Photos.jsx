@@ -9,6 +9,7 @@ import img4 from './Photos_Img/5.png'
 import img5 from './Photos_Img/6.jpg'
 import img6 from './Photos_Img/7.jpg'
 import img7 from './Photos_Img/8.jpg'
+import img8 from './Photos_Img/9.jpg'
 
 
 
@@ -33,6 +34,8 @@ const Photos = () => {
 						<img src={img6} alt=""/>
 					</li><li>
 						<img src={img7} alt=""/>
+					</li><li>
+						<img src={img8} alt=""/>
 					</li>
 				</ul>
 

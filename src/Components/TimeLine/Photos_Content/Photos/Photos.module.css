@@ -26,19 +26,21 @@
 }
 .photos ul li {
     display: inline-block;
-    min-width: 32.2%;
-    width: 32.2%;
-    margin: 0 1.3px;
+    min-width: 32%;
+    width: 32%;
+    margin: 2px;
+    height: 160px;
 
 
     border: 1px solid #fff;
 }
 .photos li img {
     width: 100%;
-    height: auto;
     max-width: 100%;
     vertical-align: middle;
     border-style: none;
+    height: 100%;
+    object-fit: cover;
 }
 
 
