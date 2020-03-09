@@ -4,11 +4,9 @@ import styles from  './HeaderTop.module.css';
 import Generate_li from "../../General/Generate_li";
 
 
-const headerTopLinks =['Home','Timeline','Account setting','More pages'];
-const newHeaderTopLinks = headerTopLinks.map(el => <Generate_li title={el} to={`/${el}`}/>);
+const HeaderTop = (props) => {
 
-
-const HeaderTop = () => {
+	const newHeaderTopLinks = props.state.headerTopLinks.map(el => <Generate_li title={el} to={`/${el}`}/>);
 
 	return (
 		<div className={styles.headerTop}>

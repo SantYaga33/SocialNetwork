@@ -6,15 +6,15 @@ import NewFriends from "./NewFriends/NewFriends";
 import SidebarRigth from "./SidebarRigth/SidebarRigth";
 
 
-const NewFriends_Content = () => {
+const NewFriends_Content = (props) => {
 	return (
 		<section >
 			<div className={styles.section_wrap}>
 				<div className={styles.container}>
 					<div className={styles.content_wrap}>
 						<SidebarLeft />
-						<NewFriends/>
-						<SidebarRigth/>
+						<NewFriends state={props.state}/>
+						<SidebarRigth state={props.state}/>
 					</div>
 				</div>
 			</div>

@@ -4,14 +4,14 @@ import SidebarLeft from "./SidebarLeft/SidebarLeft";
 import Messages from "./Messages/Messages";
 
 
-const Messages_Content = () => {
+const Messages_Content = (props) => {
 	return (
 		<section >
 			<div className={styles.section_wrap}>
 				<div className={styles.container}>
 					<div className={styles.content_wrap}>
 						<SidebarLeft />
-						<Messages/>
+						<Messages state={props.state}/>
 					</div>
 				</div>
 			</div>

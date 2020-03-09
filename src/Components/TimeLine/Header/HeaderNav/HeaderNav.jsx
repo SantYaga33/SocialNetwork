@@ -7,7 +7,7 @@ import Generate_li from "../../General/Generate_li";
 
 const HeaderNav = (props) => {
 
-	const newHeaderNavLinks = props.headerNavLinks.map(el => <Generate_li title={el} to={`/${el}`}
+	const newHeaderNavLinks = props.state.headerNavLinks.map(el => <Generate_li title={el} to={`/${el}`}
 																		  active={styles.headerNavbar_active}/>);
 	return (
 		<div className={styles.headerNavbar}>

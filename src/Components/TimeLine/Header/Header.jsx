@@ -9,12 +9,12 @@ const Header = (props) => {
 	return (
 		<div>
 			<header className={styles.header}>
-				<HeaderTop />
+				<HeaderTop state={props.state}/>
 				<div className={styles.headerStub}></div>
 			</header>
 			<section >
 				<HeaderBg />
-				<HeaderNav headerNavLinks={props.headerNavLinks}/>
+				<HeaderNav state={props.state}/>
 			</section>
 		</div>
 

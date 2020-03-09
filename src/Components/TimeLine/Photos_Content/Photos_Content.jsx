@@ -6,7 +6,7 @@ import SidebarRigth from "./SidebarRigth/SidebarRigth";
 import Photos from "./Photos/Photos";
 
 
-const Photos_Content = () => {
+const Photos_Content = (props) => {
 	return (
 		<section >
 			<div className={styles.section_wrap}>
@@ -14,7 +14,7 @@ const Photos_Content = () => {
 					<div className={styles.content_wrap}>
 						<SidebarLeft />
 						<Photos/>
-						<SidebarRigth/>
+						<SidebarRigth state={props.state}/>
 					</div>
 				</div>
 			</div>

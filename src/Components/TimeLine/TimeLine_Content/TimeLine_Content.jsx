@@ -5,23 +5,20 @@ import CentralContent from "./Central/Central";
 import SidebarRigth from "./SidebarRigth/SidebarRigth";
 
 
-
-
-
-const TimeLine_Content = () => {
+const TimeLine_Content = (props) => {
 	return (
 		<section >
 			<div className={styles.section_wrap}>
 				<div className={styles.container}>
 					<div className={styles.content_wrap}>
-						<SidebarLeft />
+						<SidebarLeft state={props.state}/>
 						<CentralContent/>
-						<SidebarRigth />
+						<SidebarRigth state={props.state}/>
 					</div>
 				</div>
 			</div>
 		</section>
 	);
-}
+};
 
 export default TimeLine_Content;

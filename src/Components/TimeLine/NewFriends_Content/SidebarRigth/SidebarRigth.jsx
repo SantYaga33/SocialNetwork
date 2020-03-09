@@ -4,12 +4,12 @@ import Friends from "./Friends/Friends";
 import Followers from "./Followers/Followers";
 
 
-const SidebarRigth = () => {
+const SidebarRigth = (props) => {
 	return (
 		<div className={styles.sidebar_wrap	}>
 			<div className={styles.sidebar}>
-				<Followers/>
-				<Friends/>
+				<Followers state={props.state}/>
+				<Friends state={props.state}/>
 
 			</div>
 		</div>

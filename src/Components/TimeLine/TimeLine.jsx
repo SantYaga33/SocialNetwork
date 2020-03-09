@@ -14,12 +14,12 @@ import Photos_Content from "./Photos_Content/Photos_Content";
 const TimeLine = (props) => {
 	return (
 		<div className={styles.timeLine}>
-			<Header headerNavLinks={props.headerNavLinks}/>
-			<Route path='/SocialNetwork' exact={true}    render={ () => <TimeLine_Content /> }/>
-			<Route path='/Timeline'  render={ () => <TimeLine_Content /> }/>
-			<Route path='/Messages'  render={ () => <Messages_Content /> }/>
-			<Route path='/Friends'   render={ () => <NewFriends_Content /> }/>
-			<Route path='/Photos'    render={ () => <Photos_Content /> }/>
+			<Header state={props.state}/>
+			<Route path='/SocialNetwork' exact={true}    render={ () => <TimeLine_Content state={props.state}/> }/>
+			<Route path='/Timeline'  render={ () => <TimeLine_Content  state={props.state}/> }/>
+			<Route path='/Messages'  render={ () => <Messages_Content  state={props.state}/> }/>
+			<Route path='/Friends'   render={ () => <NewFriends_Content state={props.state}/> }/>
+			<Route path='/Photos'    render={ () => <Photos_Content state={props.state}/> }/>
 			<Footer/>
 		</div>
 

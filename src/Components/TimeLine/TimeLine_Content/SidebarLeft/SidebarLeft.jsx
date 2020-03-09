@@ -6,14 +6,14 @@ import Recent from "./Recent/Recent";
 import Followers from "./Followers/Followers";
 
 
-const SidebarLeft = () => {
+const SidebarLeft = (props) => {
 	return (
 		<div className={styles.sidebar_wrap	}>
 			<div className={styles.sidebar}>
 				<Socials/>
 				<Shortcuts/>
 				<Recent/>
-				<Followers/>
+				<Followers state={props.state}/>
 
 			</div>
 		</div>

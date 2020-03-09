@@ -8,7 +8,7 @@ import Friends_list from "./Friends_list/Friends_list";
 
 
 
-const Messages = () => {
+const Messages = (props) => {
 	return (
 		<div className={styles.messages_wrap}>
 			<div className={styles.messages	}>
@@ -20,7 +20,7 @@ const Messages = () => {
 				</div>
 				<div className={styles.messages_infoWrap}>
 					<div className={styles.messages_friendsList}>
-						<Friends_list/>
+						<Friends_list state={props.state}/>
 					</div>
 					<div className={styles.messages_chat}>
 

@@ -6,7 +6,7 @@ import NewFriendsRemove from "./NewFriendsRemove";
 
 
 
-const NewFriends = () => {
+const NewFriends = (props) => {
 
 		return (
 		<div className={styles.newFriends_wrap}>
@@ -22,8 +22,8 @@ const NewFriends = () => {
 					</div>
 				</div>
 				<ul className={styles.newFriends_infoCards}>
-					<Route path='/Friends'    exact={true}   render={ () => <NewFriendsList /> }/>
-					<Route path='/Friends/Friend Requests'  render={ () => <NewFriendsRemove /> }/>
+					<Route path='/Friends'    exact={true}   render={ () => <NewFriendsList state={props.state}/> }/>
+					<Route path='/Friends/Friend Requests'  render={ () => <NewFriendsRemove state={props.state}/> }/>
 				</ul>
 			</div>
 		</div>
