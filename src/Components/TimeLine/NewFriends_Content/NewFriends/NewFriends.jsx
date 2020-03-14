@@ -1,9 +1,8 @@
 import React from 'react';
 import styles from './NewFriends.module.css';
-import {NavLink, Route, Redirect } from "react-router-dom";
+import {NavLink, Route } from "react-router-dom";
 import NewFriendsList from "./NewFriendsList";
 import NewFriendsRemove from "./NewFriendsRemove";
-
 
 
 const NewFriends = (props) => {
