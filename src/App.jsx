@@ -27,9 +27,9 @@ library.add (fab, faCoffee, faSearch, faHome, faCommentAlt,
 
 const App = (props) => {
 	return (
-		<BrowserRouter>
+		<>
 			<TimeLine state={props.state}/>
-		</BrowserRouter>
+		</>
 
 	);
 };
