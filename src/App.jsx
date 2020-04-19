@@ -4,7 +4,7 @@ import TimeLine from "./Components/TimeLine/TimeLine";
 
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab } from '@fortawesome/free-brands-svg-icons'
-import { BrowserRouter } from "react-router-dom";
+import { HashRouter } from "react-router-dom";
 
 
 import {
@@ -27,9 +27,9 @@ library.add (fab, faCoffee, faSearch, faHome, faCommentAlt,
 
 const App = (props) => {
 	return (
-		<>
+		<HashRouter>
 			<TimeLine state={props.state}/>
-		</>
+		</HashRouter>
 
 	);
 };
